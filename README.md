@@ -1,6 +1,6 @@
 # ConCom - Conventional Committer :memo:
 
-A CLI for committing conventional commits.
+A CLI for committing [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/).
 
 1. Choose the type of your commit
 2. Define the scope (can be empty)
