@@ -2,6 +2,46 @@
 
 A CLI for committing conventional commits.
 
+1. Choose the type of your commit
+2. Define the scope (can be empty)
+3. Choose whether your commit does include breaking changes
+4. Write the commit message in your predefined `$EDITOR`
+
+```
+> concom
+Use the arrow keys to navigate: ↓ ↑ → ←
+? What type is your commit?:
+  ▸ feat - A new feature
+    fix
+    docs
+    build
+    ci
+    perf
+    refactor
+    style
+    test
+    chore
+```
+
+```
+> concom
+✔ feat - A new feature
+✔ Scope:
+```
+
+```
+> concom
+✔ feat - A new feature
+Scope: █
+? Breaking? [y/N]
+```
+
+## Tips and Tricks
+
+### Vim
++ To discard a commit you have to close vim wih a non-zero exit value
+    + Type `:cq`
+
 ## License
 
     Copyright (C) 2020  Marvin Strangfeld
