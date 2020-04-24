@@ -1,5 +1,10 @@
 # ConCom - Conventional Committer :memo:
 
+![Build](https://github.com/mstrangfeld/concom/workflows/Build/badge.svg)
+![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/mstrangfeld/concom?label=version&sort=semver)
+![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/mstrangfeld/concom)
+![License](https://img.shields.io/github/license/mstrangfeld/concom)
+
 A CLI for committing [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/).
 
 1. Choose the type of your commit
