@@ -1,4 +1,4 @@
-# ConCom - Conventional Committer
+# ConCom - Conventional Committer :memo:
 
 A CLI for committing conventional commits.
 
@@ -34,6 +34,14 @@ Use the arrow keys to navigate: ↓ ↑ → ←
 ✔ feat - A new feature
 Scope: █
 ? Breaking? [y/N]
+```
+
+## Installation
+
+Via Go get:
+
+```
+> go get -u github.com/mstrangfeld/concom
 ```
 
 ## Tips and Tricks
